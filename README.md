@@ -14,8 +14,8 @@ Docker image build for [ghostunnel](https://github.com/ghostunnel/ghostunnel), u
 
 ### Images
 
-- docker pull docker.io/containerinfra/ghostunnel:1.6.0
-- docker pull ghcr.io/containerinfra/ghostunnel:1.6.0
+- docker pull docker.io/containerinfra/ghostunnel:1.6.1
+- docker pull ghcr.io/containerinfra/ghostunnel:1.6.1
 
 ### Verify image with cosign
 
@@ -29,8 +29,8 @@ eQm/6XSWAMDGeH4hrFpvo8Sw0t+xf0PdRSUEXCyKFXve+Q2s8csVo4eAaA==
 -----END PUBLIC KEY-----
 
 
-cosign verify --key cosign.pub docker.io/containerinfra/ghostunnel:1.6.0
-cosign verify --key cosign.pub ghcr.io/containerinfra/ghostunnel:1.6.0
+cosign verify --key cosign.pub docker.io/containerinfra/ghostunnel:1.6.1
+cosign verify --key cosign.pub ghcr.io/containerinfra/ghostunnel:1.6.1
 ```
 
 ### Configuration

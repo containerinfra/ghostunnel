@@ -1,7 +1,7 @@
 FROM centos:8 as build
 
-ARG GHOSTUNNEL_VERSION=v1.6.0
-ARG GHOSTUNNEL_SHA256=26b713008ddc0e612eb3b67e6c9eb8518b17bb48fdebef48f776b52cda21b490
+ARG GHOSTUNNEL_VERSION=v1.6.1
+ARG GHOSTUNNEL_SHA256=0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5
 
 RUN curl -L -O https://github.com/ghostunnel/ghostunnel/releases/download/${GHOSTUNNEL_VERSION}/ghostunnel-${GHOSTUNNEL_VERSION}-linux-amd64 \
     \
